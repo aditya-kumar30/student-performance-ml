@@ -28,6 +28,20 @@ They contain student grades, demographic, social, and school-related features.
 ---
 
 ## 📂 Repository Structure  
+├── 📄 README.md
+├── 📁 code
+│ ├── 📄 [Replication - Binary Classification](./Student-Performance-Project/code/Replication%20Binary%20Classification.R)
+│ ├── 📄 [Replication - 5-Level Classification](./Student-Performance-Project/code/Replication%205-Level%20Classification.R)
+│ ├── 📄 Replication 5-level Classification.R
+│ ├── 📄 Improvement Regression and Variable selection - Mathematics.R
+│ ├── 📄 Improvement Regression and Variable selection - Portuguese.R
+│ ├── 📄 Improvement Binary Classification - Mathematics.R
+│ ├── 📄 Improvement Binary Classification - Portuguese.R
+│ ├── 📄 Improvement 5 Level Classification - Mathematics.R
+│ └── 📄 Improvement 5 Level Classification - Portuguese.R
+└── 📁 data
+├── 📄 student-mat.csv
+└── 📄 student-por.csv
 --> [Replication - Binary](./Student-Performance-Project/code/Replication%20Binary%20Classification.R)
 
 
