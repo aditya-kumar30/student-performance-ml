@@ -1,12 +1,12 @@
 # Predicting Student Performance: A Replication and Extension  
 
-This project is a comprehensive **replication and extension** of the 2008 paper by **P. Cortez and A. Silva**, [*"Using Data Mining to Predict Secondary School Student Performance."*](https://www.semanticscholar.org/paper/Using-data-mining-to-predict-secondary-school-Cortez-Silva/61d468d5254730bbecf822c6b60d7d6595d9889c)  
+This project is a comprehensive **replication and extension** of the 2008 paper by **P. Cortez and A. Silva**, [*"Using Data Mining to Predict Secondary School Student Performance"*](https://www.semanticscholar.org/paper/Using-data-mining-to-predict-secondary-school-Cortez-Silva/61d468d5254730bbecf822c6b60d7d6595d9889c).  
 
 The analysis was conducted in **R** and is divided into two main phases:  
 1. A faithful replication of the original study's results.  
 2. An extension that implements a systematic **feature selection process** to build simpler, more powerful predictive models.
 
-The full analysis and findings are detailed in the accompanying [Final Report](./Student-Performance-Project/Final_Report.pdf)
+The full analysis and findings are detailed in the accompanying [Final Report](./Student-Performance-Project/Final_Report.pdf).
 
 ---
 
@@ -52,7 +52,7 @@ The two datasets used in this analysis (**student-mat.csv** and **student-por.cs
     - 📄 [Replication - 5-Level Classification](./Student-Performance-Project/code/Replication%20Binary%20Classification.R)
     - 📄 [Replication - Regression](./Student-Performance-Project/code/Replication%20Regression.R)
     - 📄 [Improvement and Variable selection - Regression (Mathematics)](./Student-Performance-Project/code/Improvement%20Regression%20and%20Variable%20selection%20-%20Mathematics.R)  
-    - 📄 [Improvement and Variable selection - (Portuguese)](./Student-Performance-Project/code/Improvement%20Regression%20and%20Variable%20selection%20-%20Portuguese.R)  
+    - 📄 [Improvement and Variable selection - Regression (Portuguese)](./Student-Performance-Project/code/Improvement%20Regression%20and%20Variable%20selection%20-%20Portuguese.R)  
     - 📄 [Improvement Binary Classification (Mathematics)](./Student-Performance-Project/code/Improvement%20Binary%20Classification%20-%20Mathematics.R)  
     - 📄 [Improvement Binary Classification - (Portuguese)](./Student-Performance-Project/code/Improvement%20Binary%20Classification%20-%20Portuguese.R)  
     - 📄 [Improvement 5 Level Classification - (Mathematics)](./Student-Performance-Project/code/Improvement%205%20Level%20Classficiation%20-%20Mathematics.R)  
@@ -63,7 +63,7 @@ The two datasets used in this analysis (**student-mat.csv** and **student-por.cs
 ---
 ## How to Run the Code  
 
-### Prerequisites  
+### Prerequisites:  
 
 - **R**: Install a recent version (≥ 4.x).  
 - **R Packages**: Install dependencies by running:
@@ -72,7 +72,7 @@ The two datasets used in this analysis (**student-mat.csv** and **student-por.cs
   install.packages(c("rminer", "randomForest"))
   library(rminer)
   library(randomForest)
-- ⚠ Note: Ensure that student-mat.csv and student-por.csv (from /data) are in the R working directory when running the scripts.
+- ⚠ Note: Ensure that [student-mat.csv](./Student-Performance-Project/data/student-mat.csv) and [student-por.csv](./Student-Performance-Project/data/student-por.csv) are in the R working directory when running the scripts.
   
 ### Execution Order:  
 - Replication Scripts: Run the replication scripts which reproduce the baseline results from the original paper.
