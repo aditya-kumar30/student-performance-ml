@@ -1,77 +1,76 @@
-**Predicting Student Performance: A Replication and Extension** 
-This project is a comprehensive replication and extension of the 2008 paper by P. Cortez and A. Silva, "Using Data Mining to Predict Secondary School Student Performance." The analysis was conducted in R and is divided into two main phases: a faithful replication of the original study's results and an extension that implements a systematic feature selection process to build simpler, more powerful predictive models.
+# Predicting Student Performance: A Replication and Extension  
 
-**Key Findings & Improvements**
-Our extension work, which focused on the most challenging real-world scenario (Setup C, where no prior grades are available), yielded significant improvements:
+This project is a comprehensive **replication and extension** of the 2008 paper by **P. Cortez and A. Silva**, *"Using Data Mining to Predict Secondary School Student Performance."*  
 
-Identified Core Predictors: Through a Random Forest-based feature ranking, we identified an optimal subset of 9 core predictors for the Mathematics dataset and 23 for the Portuguese dataset.
+The analysis was conducted in **R** and is divided into two main phases:  
+1. A faithful replication of the original study's results.  
+2. An extension that implements a systematic **feature selection process** to build simpler, more powerful predictive models.  
 
-Improved Model Performance: By training models on these refined feature sets, we consistently achieved better performance. The most notable result was a 5.1% increase in accuracy for the SVM classifier on the 5-level Portuguese classification task.
+---
 
-Enhanced Model Simplicity & Interpretability: For the Mathematics dataset, our final model achieved comparable performance to the original using 70% fewer features (9 vs. 30+), resulting in a much simpler and more interpretable model.
+## Key Findings & Improvements  
 
-Solved the Precision Problem: Our feature selection process significantly increased the precision of the Random Forest model on the binary classification task, creating a more reliable and confident predictor.
+The extension work, which focused on the most challenging real-world scenario (*Setup C*, where no prior grades are available), yielded significant improvements:  
 
-📊 Data
-The two datasets used in this analysis (student-mat.csv and student-por.csv) were sourced from the UCI Machine Learning Repository. They contain student grades, demographic, social, and school-related features.
+- **Identified Core Predictors:** Using Random Forest-based feature ranking, we identified an optimal subset of **9 core predictors** for the Mathematics dataset and **23 for the Portuguese dataset**.  
+- **Improved Model Performance:** Models trained on these refined feature sets consistently performed better, including a **5.1% increase in accuracy** for the SVM classifier on the 5-level Portuguese classification task.  
+- **Enhanced Simplicity & Interpretability:** For Mathematics, the final model achieved comparable results with **70% fewer features** (9 vs. 30+), making it simpler and easier to interpret.  
+- **Solved the Precision Problem:** The feature selection process significantly improved **Random Forest precision** on the binary classification task, producing a more reliable predictor.  
 
-Link to the dataset at UCI Repository
+---
 
-📂 Repository Structure
-.
-├── 📄 Final_Report.pdf
-├── 📄 README.md
-├── 📁 code
-│   ├── 📄 Replication Regression.R
-│   ├── 📄 Replication Binary Classification.R
-│   ├── 📄 Replication 5-level Classification.R
-│   ├── 📄 Improvement Regression and Variable selection - Mathematics.R
-│   ├── 📄 Improvement Regression and Variable selection - Portuguese.R
-│   ├── 📄 Improvement Binary Classification - Mathematics.R
-│   ├── 📄 Improvement Binary Classification - Portuguese.R
-│   ├── 📄 Improvement 5 Level Classficiation - Mathematics.R
-│   └── 📄 Improvement 5 Level Classification - Portuguese.R
-└── 📁 data
-    ├── 📄 student-mat.csv
-    └── 📄 student-por.csv
+## Data  
 
-🛠️ How to Run the Code
-Prerequisites
-R: You must have a recent version of R installed.
+The two datasets used in this analysis (**student-mat.csv** and **student-por.csv**) were sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/student+performance).  
 
-R Packages: You need to install the following packages. You can do so by running this command in your R console:
+They contain student grades, demographic, social, and school-related features.  
 
-install.packages(c("randomForest", "rminer"))
+---
+
+## 📂 Repository Structure  
+--> [Replication - Binary](./Replication%20Binary%20Classification.R)
+
+
+
+---
+
+## 🛠️ How to Run the Code  
+
+### Prerequisites  
+- **R**: Install a recent version (≥ 4.x).  
+- **R Packages**: Install dependencies by running:
+
+  ```R
+  install.packages(c("randomForest", "rminer"))
+
 
 Execution Order
-The scripts are numbered implicitly by their purpose. It is recommended to run them in the following logical order:
-
-Replication Scripts:
+Replication Scripts
 
 Replication Regression.R
 
 Replication Binary Classification.R
 
 Replication 5-level Classification.R
-These scripts will reproduce the baseline results from the original paper.
 
-Feature Selection Scripts:
+These reproduce the baseline results from the original paper.
+
+Feature Selection Scripts
 
 Improvement Regression and Variable selection - Mathematics.R
 
 Improvement Regression and Variable selection - Portuguese.R
-These scripts perform the core feature ranking and search to find the optimal number of predictors for each dataset.
 
-Improved Model Scripts:
+Perform Random Forest-based feature ranking and search for optimal predictors.
 
-Improvement Binary Classification - Mathematics.R / ... - Portuguese.R
+Improved Model Scripts
 
-Improvement 5 Level Classficiation - Mathematics.R / ... - Portuguese.R
-These scripts take the optimal feature sets found in the previous step and evaluate the final, improved models.
+Improvement Binary Classification - Mathematics.R / ...Portuguese.R
 
-Note: Ensure that the student-mat.csv and student-por.csv files from the /data directory are in your R working directory when you run the scripts.
+Improvement 5 Level Classification - Mathematics.R / ...Portuguese.R
 
-📜 Citation
-This work is based on the following paper:
+Evaluate improved models using the optimal feature sets.
 
-P. Cortez and A. Silva. "Using Data Mining to Predict Secondary School Student Performance." In Proceedings of 5th Annual Future Business Technology Conference, pp. 5-12, Porto, Portugal, April, 2008.
+⚠️ Note: Ensure that student-mat.csv and student-por.csv (from /data) are in your R working directory when running the scripts.
+
+
