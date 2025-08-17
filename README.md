@@ -28,7 +28,7 @@ They contain student grades, demographic, social, and school-related features.
 ---
 
 ## 📂 Repository Structure  
---> [Replication - Binary](./Student%20Performance%20Project/code/Replication%20Binary%20Classification.R)
+--> [Replication - Binary](./code/Replication%20Binary%20Classification.R)
 
 
 
