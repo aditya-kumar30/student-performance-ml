@@ -32,16 +32,15 @@ sorted_importance <- sort(raw_importance[,1], decreasing = TRUE)
 ranked_features <- names(sorted_importance)
 ```
 #### Performance vs. Number of Features:
-The graphs below plot the cross-validated RMSE against the number of top-ranked features used to train the model. This visualization allowed us to identify the "sweet spot" where the model's performance stabilized, indicating the optimal number of features to retain.
+The graphs below plot the cross-validated RMSE against the number of top-ranked features used to train the model. This visualization allowed us to identify the "sweet spot" where the model's performance stabilized, indicating the optimal number of features to retain.  
 
-
+![RMSE vs Top Features](./Student-Performance-Project/top_features_graph.png)
 ---
 
 ## Data  
 
-The two datasets used in this analysis (**student-mat.csv** and **student-por.csv**) were sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/student+performance).  
+The two datasets used in this analysis (**student-mat.csv** and **student-por.csv**) were sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/student+performance). They contain student grades, demographic, social, and school-related features.  
 
-They contain student grades, demographic, social, and school-related features.  
 ---
 ## Repository Structure  
 
