@@ -55,7 +55,7 @@ The two datasets used in this analysis (**student-mat.csv** and **student-por.cs
     - 📄 [Improvement and Variable selection - (Portuguese)](./Student-Performance-Project/code/Improvement%20Regression%20and%20Variable%20selection%20-%20Portuguese.R)  
     - 📄 [Improvement Binary Classification (Mathematics)](./Student-Performance-Project/code/Improvement%20Binary%20Classification%20-%20Mathematics.R)  
     - 📄 [Improvement Binary Classification - (Portuguese)](./Student-Performance-Project/code/Improvement%20Binary%20Classification%20-%20Portuguese.R)  
-    - 📄 [Improvement 5 Level Classification - (Mathematics)](./Student-Performance-Project/code/Improvement%205%20Level%20Classificiation%20-%20Mathematics.R)  
+    - 📄 [Improvement 5 Level Classification - (Mathematics)](./Student-Performance-Project/code/Improvement%205%20Level%20Classficiation%20-%20Mathematics.R)  
     - 📄 [Improvement 5 Level Classification - (Portuguese)](./Student-Performance-Project/code/Improvement%205%20Level%20Classification%20-%20Portuguese.R)  
   - 📁 data  
     - 📄 [student-mat.csv](./Student-Performance-Project/data/student-mat.csv)  
