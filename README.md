@@ -1,6 +1,6 @@
 # Predicting Student Performance: A Replication and Extension  
 
-This project is a comprehensive **replication and extension** of the 2008 paper by **P. Cortez and A. Silva**, *"Using Data Mining to Predict Secondary School Student Performance."*  
+This project is a comprehensive **replication and extension** of the 2008 paper by **P. Cortez and A. Silva**, [*"Using Data Mining to Predict Secondary School Student Performance."*](https://www.semanticscholar.org/paper/Using-data-mining-to-predict-secondary-school-Cortez-Silva/61d468d5254730bbecf822c6b60d7d6595d9889c)  
 
 The analysis was conducted in **R** and is divided into two main phases:  
 1. A faithful replication of the original study's results.  
